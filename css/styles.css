@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    color: #fff;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.adv-box {
+    position: relative;
+    max-width: 600px;
+    width: 50%;
+    margin: auto;
+    border-radius: 16px;
+    padding: 50px;
+    background-color: hsl(217, 19%, 24%);
+    font-size: 15px;
+    text-align: center;
+}
+
+.adv-box h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+small {
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.divider img {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.pausebtn {
+    /* position: absolute;
+    left: 46.5%;
+    margin-top: 25px; */
+    border-radius: 100px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -72px;
+    padding: 10px;
+    border: none;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: hsl(150, 100%, 66%);
+}
+
+.pausebtn:hover {
+    box-shadow: 0 0 29px hsl(150, 100%, 66%);
+    background-color: hsl(150, 100%, 66%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    font-weight: 700;
+    bottom: 0;
+}
+.attribution a { 
+    color: hsl(150, 100%, 66%); 
+}
+
+@media (max-width: 600px) {
+    .adv-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .pausebtn {
+        border-radius: 100px 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -42px;
+    }
+}
